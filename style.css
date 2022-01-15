@@ -15,7 +15,7 @@ section{
 } */
 .half-width img{
     width: 400px;
-    height: 150px;
+    height: 250px;
     padding-right: 50px;
 }
 .flexible-container{
@@ -29,7 +29,7 @@ section{
 .link-button{
     text-decoration: none;
     padding-left: 30px;
-    padding-right: 60px;
+    padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
     height: 100px;
@@ -53,3 +53,25 @@ width: 400px;
 .course-info{
     color: #ffc014;
 }
+.arrow-icon{
+    margin-left: 40px;
+}
+.rating-marking{
+    display: flex;
+    align-items: center;
+}
+.mar{
+    margin-left: 20px;
+}
+.margin{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+@media only screen and (max-width: 450px) {
+    .flexible-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+  }
