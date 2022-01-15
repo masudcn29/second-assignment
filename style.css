@@ -25,6 +25,7 @@ section{
     background-image: linear-gradient(rgb(18, 26, 61), gray);
     text-align: center;
     color: white;
+    width: 100%;
 }
 .link-button{
     text-decoration: none;
